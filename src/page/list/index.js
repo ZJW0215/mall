@@ -1,0 +1,6 @@
+require('./index.css')
+require('../common/nav/index')
+require('../common/header/index')
+const tools = require('../../util/tools')
+const product = require('../../service/product-service')
+const templateIndex = require('./index.string')

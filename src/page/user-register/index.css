@@ -1,0 +1,98 @@
+/* 最外层容器 */
+.page-wrap{
+    padding: 40px 0;
+    background: #ef9d49;
+}
+.w{
+    width: 80%;
+}
+/* 用户登录容器 */
+.user-con{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    height: 900px;
+    background: url("../../image/bg-login.jpg") no-repeat center center;
+    background-size: cover;
+}
+.user-con .user-form{
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+    width: 60%;
+    box-shadow: 1px 1px 10px 1px #e2e2e2 inset;
+}
+/* 用户登录标题 */
+.user-form .user-title{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.user-form .user-box{
+    padding: 30px 80px;
+}
+/* 错误提示框 */
+.user-form .user-box .error-item{
+    position: relative;
+    display: none;
+    padding: 4px 0 4px 40px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    color: red;
+    background: #fde9e9;
+}
+/* 错误图标 */
+.user-form .user-box .error-icon{
+    position: absolute;
+    left: 14px;
+    top: 30%;
+    font-size: 14px;
+    margin-left: -7px;
+}
+/* 输入框的容器层 */
+.user-form .user-item{
+    position: relative;
+    margin-bottom: 20px;
+}
+.user-form .user-item .user-label{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    width: 40px;
+    line-height: 36px;
+    font-size: 20px;
+    color: #d3d3d3;
+    background: #f3f3f3;
+    text-align: center;
+    border-right: 1px solid #bdbdbd;
+}
+/* 输入框样式 */
+.user-form .user-item .user-content{
+    padding: 10px 0 10px 50px;
+    width: calc(100% - 50px);  /* 计算宽度，'+'或'-'符号前后有空格 */
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+}
+/* 登录按钮样式 */
+.user-form .btn-submit{
+    width: 100%;
+    padding: 2px 0;
+    font-size: 20px;
+    text-align: center;
+}
+/* 链接样式 */
+.user-form .link-item{
+    text-align: right;
+    margin-top: 10px;
+}
+.user-form .link-item .link{
+    margin-left: 10px;
+    color: #999;
+}

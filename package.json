@@ -1,0 +1,39 @@
+{
+  "name": "mall",
+  "version": "1.0.0",
+  "description": "电商商城网站，可进行数据交互",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack && set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZJW0215/mall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZJW0215/mall/issues"
+  },
+  "homepage": "https://github.com/ZJW0215/mall#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  }
+}
